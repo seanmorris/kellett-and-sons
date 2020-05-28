@@ -81,7 +81,6 @@ div.footer {
 	color: white;
 	padding: 4em;
 	flex-grow: 0;
-	font-size: 0.85em;
 	align-items: flex-start;
 	justify-content: space-between;
 }
@@ -167,4 +166,9 @@ div.below-fold div {
 
 .tile form button {
 	margin-right: 0px;
+}
+
+.cloudflare-badge {
+	background-position: -240px center !important;
+	
 }
