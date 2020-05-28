@@ -1,0 +1,128 @@
+body {
+	background-color: #eaffff;
+	background-image: url('/pattern.png');
+	border-left: 1px solid rgba(0,0,0,0.25);
+	border-right: 1px solid rgba(0,0,0,0.25);
+}
+
+div.header {
+	background: #006cb6;
+	position: relative;
+}
+
+div.branding {
+	position: relative;
+	z-index: 7;
+
+}
+
+div.branding p {
+	font-family: 'microgramma';
+	font-weight: bold;
+	font-size: 2.2em;
+	color: #FFF;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.65);
+	white-space: pre;
+	min-width: 200px;
+}
+
+div.branding p sup {
+	font-size: 0.35em;
+}
+
+div.topLeft, div.topRight {
+	position: absolute;
+	color:white;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.45);
+}
+
+div.below-logo > div:first-child {
+}
+
+div.navigation {
+	background-color: #00a0e8;
+	min-height: 3em;
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	position: relative;
+	top: -1.5em;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: white;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 6px rgba(0,0,0,0.65);
+}
+
+div.navigation > div {
+	font-size: 0.9em;
+}
+
+div.content {
+	margin-top: -3em;
+	z-index: 0;
+}
+
+div.hero {
+	background-image: url('/faucet-cropped.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 32em;
+	position: relative;
+}
+
+div.hero div.overlay {
+	font-style: italic;
+	flex-direction: column;
+	position: absolute;
+	top: 16.5%;
+	left: 8%;
+	background-color: rgba(0,0,0,0.5);
+	padding: 3em;
+	box-sizing: border-box;
+	height: 66%;
+	width: 345px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+div.hero p {
+	font-size: 1.25em;
+}
+
+div.hero div.overlay .cta {
+	border:none;
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background: white;
+	border-radius: 0.5em;
+	font-size: 1.2rem; 
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+div.services {
+	padding: 2em;
+}
+
+div.footer p {
+	margin: 0em;
+	align-items: center;
+	min-height: 1.25em;
+	display: flex;
+}
+
+div.footer .badge {
+	height: 3.5em;
+	margin-right: 1em;
+}

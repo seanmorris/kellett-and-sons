@@ -1,0 +1,15 @@
+@font-face {
+	font-family: 'komika display';
+	src: url('/KMKDSPKB.ttf');
+}
+
+@font-face {
+	font-family: 'microgramma';
+	src: url('/MicrogrammaDEEMedExt Regular.ttf');
+}
+
+@font-face {
+	font-family: 'microgramma';
+	src: url('/Microgramma D Extended Bold.otf');
+	font-weight: bold;
+}

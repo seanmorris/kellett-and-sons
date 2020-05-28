@@ -1,0 +1,110 @@
+body {
+	display: flex;
+	flex-direction: column;
+
+	position: relative;
+
+	flex-grow: 1;
+
+	max-width: 64em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+div.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+div.navigation > div {
+	display: flex;
+	align-items: center;
+}
+
+div.header .branding {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+	margin-top: 1em;
+}
+
+div.header .topLeft {
+	margin: 0.5em;
+	position: absolute;
+	top: 0em;
+	left: 0em;
+}
+
+div.header .topRight {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	color: white;
+	text-align: right;
+	margin: 0.5em;
+}
+
+div.header .logo {
+	height: 8em;
+	margin: 1em;
+}
+
+img.icon {
+	height: 1.25em;
+	margin: 0.5em;
+	align-self: center;
+}
+
+div.content {
+	flex-grow: 1;
+	background-color: white;
+}
+
+div.footer {
+	display: flex;
+	flex-direction: row;
+	background-color: black;
+	color: white;
+	padding: 4em;
+	flex-grow: 1;
+	font-size: 0.85em;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+div.footer div {
+	display: flex;
+	flex-direction: column;
+}
+
+div.footer div div {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0.5em;
+	line-height: 2.25em;
+}
+
+
+div.footer div div .icon {
+	margin-left: 0em;
+	margin-top:  0em;
+	margin-bottom: 0em;
+}
+
+div.below-fold {
+	display: flex;
+	flex-direction: row;
+}
+
+div.below-fold div {
+	flex-basis: 1;
+	flex-grow: 1;
+}
+
