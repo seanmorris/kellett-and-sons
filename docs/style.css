@@ -1,6 +1,7 @@
 body {
 	background-color: #eaffff;
 	background-image: url('/pattern.png');
+	font-family: sans-serif;
 }
 
 div.header {
