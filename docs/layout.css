@@ -21,9 +21,16 @@ div.header {
 }
 
 
-div.navigation > div {
+div.navigation > div,
+div.navigation > div > a {
 	display: flex;
 	align-items: center;
+	color: white;
+	text-decoration: none;
+}
+
+div.header a {
+	color: white;
 }
 
 div.header .branding {
@@ -72,7 +79,7 @@ div.footer {
 	background-color: black;
 	color: white;
 	padding: 4em;
-	flex-grow: 1;
+	flex-grow: 0;
 	font-size: 0.85em;
 	align-items: flex-start;
 	justify-content: space-between;
@@ -101,10 +108,10 @@ div.footer div div .icon {
 div.below-fold {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 div.below-fold div {
-	flex-basis: 1;
-	flex-grow: 1;
+	width: 50%;
 }
 

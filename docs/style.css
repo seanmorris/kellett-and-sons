@@ -13,7 +13,7 @@ div.header {
 div.branding {
 	position: relative;
 	z-index: 7;
-
+	user-select: none;
 }
 
 div.branding p {
@@ -35,6 +35,7 @@ div.topLeft, div.topRight {
 	position: absolute;
 	color:white;
 	text-shadow: 2px 2px 2px rgba(0,0,0,0.45);
+	z-index: 100;
 }
 
 div.below-logo > div:first-child {
@@ -57,6 +58,7 @@ div.navigation {
 	font-weight: bold;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
 	box-shadow: 0px 4px 6px rgba(0,0,0,0.65);
+	user-select: none;
 }
 
 div.navigation > div {
@@ -98,21 +100,46 @@ div.hero p {
 	font-size: 1.25em;
 }
 
-div.hero div.overlay .cta {
+a > button {
+	cursor: pointer;
+}
+
+.cta {
 	border:none;
 	padding-left: 3em;
 	padding-right: 3em;
 	padding-top: 1em;
 	padding-bottom: 1em;
-	background: white;
+	background-color: #006cb6;
+	color: white;
 	border-radius: 0.5em;
 	font-size: 1.2rem; 
 	font-weight: bold;
 	text-transform: uppercase;
+	margin: auto;
+	box-shadow: 0px 4px 6px rgba(0,0,0,0.65);
+	margin-top: 2em;
+	margin-bottom: 2em;
 }
 
-div.services {
+div.hero div.overlay .cta {
+	background: #00a0e8;;
+	color: white;
+}
+
+div.content div.tile {
 	padding: 2em;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+div.content div.frame {
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 div.footer p {
@@ -125,4 +152,17 @@ div.footer p {
 div.footer .badge {
 	height: 3.5em;
 	margin-right: 1em;
+}
+
+div.van-tile {
+	background-image: url('/van-sketch.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 24em;
+}
+
+.tile ul li {
+	font-size: 1.25em;
+	margin-bottom: 0.25em;
 }
