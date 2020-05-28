@@ -75,6 +75,7 @@ div.content {
 
 div.footer {
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: row;
 	background-color: black;
 	color: white;
@@ -115,3 +116,55 @@ div.below-fold div {
 	width: 50%;
 }
 
+.footer a {
+	color: white;
+}
+
+.footer .attribution {
+	width: 100%;
+	margin-top: 2em;
+}
+
+.footer .attribution a {
+	display: inline;
+	margin-left: 0.5em; 
+}
+
+.tile form {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	width: 100%;
+}
+
+
+.tile form label {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.tile form textarea {
+	flex-grow: 1;
+}
+
+.tile form label {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+
+}
+
+.tile form textarea, .tile form input {
+	margin-top: 0.25em;
+	border-radius: 0.25em;
+	border: 1px #ccc solid;
+	padding: 1em;
+}
+
+.tile form textarea {
+	resize: vertical;
+}
+
+.tile form button {
+	margin-right: 0px;
+}

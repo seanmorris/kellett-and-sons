@@ -1,8 +1,6 @@
 body {
 	background-color: #eaffff;
 	background-image: url('/pattern.png');
-	border-left: 1px solid rgba(0,0,0,0.25);
-	border-right: 1px solid rgba(0,0,0,0.25);
 }
 
 div.header {
@@ -129,10 +127,15 @@ div.hero div.overlay .cta {
 
 div.content div.tile {
 	padding: 2em;
+	min-height: 24em;
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: flex-start;
+}
+
+div.content div.tile.wide {
+	width: 100%;
 }
 
 div.content div.frame {
@@ -154,7 +157,7 @@ div.footer .badge {
 	margin-right: 1em;
 }
 
-div.van-tile {
+div.van-tile, div.recent-tile {
 	background-image: url('/van-sketch.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
@@ -162,7 +165,26 @@ div.van-tile {
 	min-height: 24em;
 }
 
+div.van-tile {
+	background-image: url('/van-sketch.jpg');
+}
+
+div.recent-tile {
+	background-image: url('/recent.webp');
+}
+
 .tile ul li {
 	font-size: 1.25em;
-	margin-bottom: 0.25em;
+	margin-bottom: 0.5em;
+}
+
+.tile a {
+	width: 100%;
+	text-decoration: none;
+}
+
+.tile a button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }

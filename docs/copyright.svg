@@ -1,10 +1,85 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="197px" height="197px" xmlns="http://www.w3.org/2000/svg" version="1.1">
-	<circle cx="98" cy="98" r="98" fill="black"/>
-	<circle cx="98" cy="98" r="78" fill="white"/>
-	<circle cx="98" cy="98" r="55" fill="black"/>
-	<circle cx="98" cy="98" r="30" fill="white"/>
-	<rect x="115" y="85" width="45" height="25" fill="white"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="197px"
+   height="197px"
+   version="1.1"
+   id="svg4698"
+   sodipodi:docname="copyright.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata4704">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4702" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1036"
+     id="namedview4700"
+     showgrid="false"
+     inkscape:zoom="1.5563203"
+     inkscape:cx="-34.174875"
+     inkscape:cy="38.650199"
+     inkscape:window-x="1080"
+     inkscape:window-y="44"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4698" />
+  <circle
+     cx="98"
+     cy="98"
+     r="98"
+     fill="black"
+     id="circle4688"
+     style="fill:#ffffff" />
+  <circle
+     cx="98"
+     cy="98"
+     r="78"
+     fill="white"
+     id="circle4690"
+     style="fill:#000000" />
+  <circle
+     cx="98"
+     cy="98"
+     r="55"
+     fill="black"
+     id="circle4692"
+     style="fill:#ffffff" />
+  <circle
+     cx="98"
+     cy="98"
+     r="30"
+     fill="white"
+     id="circle4694"
+     style="fill:#000000" />
+  <rect
+     x="115"
+     y="85"
+     width="45"
+     height="25"
+     fill="white"
+     id="rect4696"
+     style="fill:#000000" />
 </svg>
