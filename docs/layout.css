@@ -41,6 +41,11 @@ div.header a {
 	display: block;
 }
 
+.tile a {
+	display: flex;
+	align-items: center;
+}
+
 div.header .branding {
 	display: flex;
 	flex-direction: row;
