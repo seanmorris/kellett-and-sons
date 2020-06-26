@@ -1,6 +1,6 @@
 body {
 	background-color: #eaffff;
-	background-image: url('/pattern.png');
+	background-image: url('/images/pattern.png');
 	font-family: sans-serif;
 }
 
@@ -13,6 +13,7 @@ div.branding {
 	position: relative;
 	z-index: 7;
 	user-select: none;
+	pointer-events: none;
 }
 
 div.branding p {
@@ -24,6 +25,7 @@ div.branding p {
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.65);
 	white-space: pre;
 	min-width: 200px;
+	pointer-events: initial;
 }
 
 div.branding p sup {
@@ -65,13 +67,17 @@ div.navigation > div {
 	font-size: 0.9em;
 }
 
+div.navigation > div > a:hover {
+	background: rgba(0,0,0, 0.05);
+}
+
 div.content {
 	margin-top: -3em;
 	z-index: 0;
 }
 
 div.hero {
-	background-image: url('/faucet-cropped.jpg');
+	background-image: url('/images/faucet-cropped.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -120,6 +126,21 @@ a > button {
 	box-shadow: 0px 4px 6px rgba(0,0,0,0.45);
 	margin-top: 2em;
 	margin-bottom: 2em;
+	display: inline-flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+}
+
+.overlay a {
+	text-decoration: none;
+}
+
+.cta .icon {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 div.hero div.overlay .cta {
@@ -160,7 +181,7 @@ div.footer .badge {
 }
 
 div.van-tile, div.recent-tile {
-	background-image: url('/van-sketch.jpg');
+	background-image: url('/images/van-sketch.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -168,11 +189,11 @@ div.van-tile, div.recent-tile {
 }
 
 div.van-tile {
-	background-image: url('/van-sketch.jpg');
+	background-image: url('/images/van-sketch.jpg');
 }
 
 div.recent-tile {
-	background-image: url('/recent.webp');
+	background-image: url('/images/recent.webp');
 }
 
 .tile ul li {
@@ -186,7 +207,6 @@ div.recent-tile {
 }
 
 .tile a button {
-	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }

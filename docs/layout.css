@@ -11,6 +11,8 @@ body {
 	margin-right: auto;
 	margin-top: 0em;
 	margin-bottom: 0em;
+
+	overflow-y: scroll;
 }
 
 div.header {
@@ -24,13 +26,19 @@ div.header {
 div.navigation > div,
 div.navigation > div > a {
 	display: flex;
+	flex-direction:row;
+	justify-content: center;
 	align-items: center;
 	color: white;
 	text-decoration: none;
+	flex-grow: 1;
+	text-align: center;
+	height: 3em;
 }
 
 div.header a {
 	color: white;
+	display: block;
 }
 
 div.header .branding {
@@ -44,14 +52,14 @@ div.header .branding {
 div.header .topLeft {
 	margin: 0.5em;
 	position: absolute;
-	top: 0em;
-	left: 0em;
+	top: 0.5em;
+	left: 0.5em;
 }
 
 div.header .topRight {
 	position: absolute;
-	top: 0px;
-	right: 0px;
+	top: 0.5em;
+	right: 0.5em;
 	color: white;
 	text-align: right;
 	margin: 0.5em;
@@ -60,6 +68,7 @@ div.header .topRight {
 div.header .logo {
 	height: 8em;
 	margin: 1em;
+	pointer-events: initial;
 }
 
 img.icon {
